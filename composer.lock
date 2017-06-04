@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6886a6bd414801527317d8a2ce2041d",
+    "content-hash": "dfd76cdc9f3bc3ccbcfc55c042288380",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -123,7 +123,7 @@
                 "collection",
                 "directus"
             ],
-            "time": "2016-12-26T09:16:26+00:00"
+            "time": "2016-12-26 09:16:26"
         },
         {
             "name": "directus/database",
@@ -221,7 +221,7 @@
             ],
             "description": "Framework for generating and managing database migrations",
             "homepage": "https://github.com/wellingguzman/migrations",
-            "time": "2016-07-28T18:37:42+00:00"
+            "time": "2016-07-28 18:37:42"
         },
         {
             "name": "directus/permissions",
@@ -261,7 +261,7 @@
                 "directus",
                 "permissions"
             ],
-            "time": "2016-11-16T19:14:18+00:00"
+            "time": "2016-11-16 19:14:18"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -525,7 +525,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-03-22T15:43:14+00:00"
+            "time": "2017-03-22 15:43:14"
         },
         {
             "name": "league/flysystem-aws-s3-v3",
@@ -818,7 +818,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-02-24T19:52:51+00:00"
+            "time": "2017-02-24 19:52:51"
         },
         {
             "name": "twig/twig",
@@ -880,7 +880,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-04-05T23:23:01+00:00"
+            "time": "2017-04-05 23:23:01"
         },
         {
             "name": "zendframework/zend-db",
@@ -981,7 +981,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2016-09-13T14:40:02+00:00"
+            "time": "2016-09-13 14:40:02"
         }
     ],
     "packages-dev": [
@@ -1044,7 +1044,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-09-02T10:13:14+00:00"
+            "time": "2014-09-02 10:13:14"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -1091,7 +1091,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2016-10-03T07:40:28+00:00"
+            "time": "2016-10-03 07:40:28"
         },
         {
             "name": "phpunit/php-text-template",
@@ -1181,7 +1181,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2017-03-07T15:42:04+00:00"
+            "time": "2017-03-07 15:42:04"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -1304,7 +1304,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-10-17T09:04:17+00:00"
+            "time": "2014-10-17 09:04:17"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1361,7 +1361,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2014-02-16T12:43:56+00:00"
+            "time": "2014-02-16 12:43:56"
         },
         {
             "name": "symfony/yaml",
@@ -1410,7 +1410,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-01T20:52:29+00:00"
+            "time": "2017-06-01 20:52:29"
         }
     ],
     "aliases": [],
@@ -1418,8 +1418,7 @@
     "stability-flags": {
         "slim/extras": 20,
         "directus/migrations": 20,
-        "directus/permissions": 20,
-        "league/flysystem-aws-s3-v3": 20
+        "directus/permissions": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
