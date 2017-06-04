@@ -8,7 +8,14 @@ $baseDir = dirname($vendorDir);
 return array(
     'Zend\\Stdlib\\' => array($vendorDir . '/zendframework/zend-stdlib/src'),
     'Zend\\Db\\' => array($vendorDir . '/zendframework/zend-db/src'),
+    'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
+    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
+    'League\\Flysystem\\AwsS3v3\\' => array($vendorDir . '/league/flysystem-aws-s3-v3/src'),
     'League\\Flysystem\\' => array($vendorDir . '/league/flysystem/src'),
+    'JmesPath\\' => array($vendorDir . '/mtdowling/jmespath.php/src'),
+    'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
+    'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
+    'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Directus\\Permissions\\' => array($vendorDir . '/directus/permissions'),
     'Directus\\Installation\\' => array($baseDir . '/installation/includes'),
     'Directus\\Embed\\Provider\\' => array($baseDir . '/customs/embeds'),
@@ -16,4 +23,5 @@ return array(
     'Directus\\Collection\\' => array($vendorDir . '/directus/collection'),
     'Directus\\API\\Routes\\' => array($baseDir . '/api/routes'),
     'Directus\\' => array($baseDir . '/api/core/Directus'),
+    'Aws\\' => array($vendorDir . '/aws/aws-sdk-php/src'),
 );
