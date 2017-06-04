@@ -41,3 +41,7 @@ AddType font/woff .woff
     # Fix $HTTP_RAW_POST_DATA deprecated warning
     php_value always_populate_raw_post_data -1
 </ifModule>
+
+<IfModule mod_setenvif.c>
+  SetEnvIf X-Forwarded-Proto "^https$" HTTPS
+</IfModule>
