@@ -14,23 +14,25 @@ return [
     'default_language' => 'en',
 
     'filesystem' => [
-        'adapter' => 'local',
+        'adapter' => 's3',
         // By default media directory are located at the same level of directus root
         // To make them a level up outsite the root directory
         // use this instead
         // Ex: 'root' => realpath(BASE_PATH.'/../storage/uploads'),
         // Note: BASE_PATH constant doesn't end with trailing slash
-        'root' => BASE_PATH . '/storage/uploads',
+        'root' => '/',
         // This is the url where all the media will be pointing to
         // here all assets will be (yourdomain)/storage/uploads
         // same with thumbnails (yourdomain)/storage/uploads/thumbs
-        'root_url' => '/storage/uploads',
-        'root_thumb_url' => '/storage/uploads/thumbs',
-        //   'key'    => 's3-key',
-        //   'secret' => 's3-key',
-        //   'region' => 's3-region',
-        //   'version' => 's3-version',
-        //   'bucket' => 's3-bucket'
+        'root_url' => 'http://static.smc.digital',
+        'root_thumb_url' => 'http://static.smc.digital/thumbs',
+        //S3 config
+
+        'key'    => getenv('S3_KEY'),
+        'secret' => getenv('S3_SECRET'),
+        'region' => 'eu-west-1',
+        'version' => 'latest',
+        'bucket' => 'static.smc.digital'
     ],
 
     'HTTP' => [
