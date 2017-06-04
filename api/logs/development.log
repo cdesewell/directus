@@ -1,0 +1,12 @@
+Jun 04 06:21:24 [info] CREATE TABLE `directus_schema_migrations` (
+`version` varchar(255))  ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+Jun 04 06:21:24 [info] CREATE UNIQUE INDEX `idx_directus_schema_migrations_version` ON `directus_schema_migrations`(`version`)
+Jun 04 06:21:29 [info] SELECT version FROM directus_schema_migrations
+Jun 04 06:21:29 [info] SELECT version FROM directus_schema_migrations
+Jun 04 06:21:30 [info] SELECT version FROM directus_schema_migrations
+Jun 04 06:27:16 [info] CREATE TABLE `directus_schema_migrations` (
+`version` varchar(255))  ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+Jun 04 06:27:16 [info] CREATE UNIQUE INDEX `idx_directus_schema_migrations_version` ON `directus_schema_migrations`(`version`)
+Jun 04 06:27:22 [info] SELECT version FROM directus_schema_migrations
+Jun 04 06:27:22 [info] SELECT version FROM directus_schema_migrations
+Jun 04 06:27:22 [info] SELECT version FROM directus_schema_migrations
