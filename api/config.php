@@ -18,7 +18,7 @@ define('DB_TYPE', 'mysql');
 define('DB_HOST', getenv('DB_URL'));
 define('DB_PORT', 3306);
 define('DB_NAME', 'cms');
-define('DB_USER', getenv('DB_USER');
+define('DB_USER', getenv('DB_USER'));
 define('DB_PASSWORD', getenv('DB_PASSWORD'));
 define('DB_PREFIX', '');
 define('DB_ENGINE', 'InnoDB');
@@ -32,7 +32,7 @@ define('DB_PASSWORD_SLAVE', '');
 define('DIRECTUS_PATH', '/');
 
 
-$host = 'www.example.com'; // (Make it work for CLI)
+$host = 'content.smc.digital'; // (Make it work for CLI)
 if (isset($_SERVER['SERVER_NAME'])) {
     $host = $_SERVER['SERVER_NAME'];
 }
