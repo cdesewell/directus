@@ -49,7 +49,7 @@ return [
     ],
 
     'cors' => [
-        'enabled' => false,
+        'enabled' => true,
         'origin' => '*',
         'headers' => [
             ['Access-Control-Allow-Headers', 'Authorization, Content-Type, Access-Control-Allow-Origin'],
